@@ -1,2 +1,2 @@
 # hello_js
-javascript tutorial
+javascript tutorial.
