@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <script>
+        var a = 100;
+        var b = 200;
+        console.log(a * b);
+
+        var message1 = '안녕? 내 이름은';
+        var message2 = ' 일분이야';
+        console.log(message1 + message2 + ' 그리고 2살 이야.');
+
+        a += 200;
+        console.log(typeof a, a)
+
+        // 바로 덧셈적용 x
+        a++;
+        // 바로 덧셈적용 o
+        ++a;
+        console.log(a)
+
+        var b = 300;
+        console.log('a와 b가 같나요?: ', a != b);
+
+        var c = 100;
+        var d = '100';
+
+        //내용만 고려
+        console.log(c == d);
+
+        // datatype까지 고려
+        console.log(c === d);
+
+        //논리 연산자 and(&&),or(||),not
+        var a = 100;
+        var b = 200;
+
+        console.log(a > 200 || b == 200);
+
+        //부정연산자
+        console.log( (100 > 200));
+
+
+    </script>
+    
+</body>
+</html>
