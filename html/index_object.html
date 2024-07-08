@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        JavaScript tutorial
+    </h1>
+    <script>
+
+        //object
+        var person = {};
+        // property
+        person.name = 'kim';
+        person.age = 29;
+
+        // method
+        person.introduce = function (){
+            console.log('안녕? 나는 ' + person.name +'이야. 나이는 ' + person.age +'살이야')
+        }
+        console.log(person.name)
+        person.introduce();
+
+        var person2 = {
+            name: 'lee',
+            age: 28,
+            introduce: function () {
+                console.log('안녕? 나는 ' + person2.name +'이야. 나이는 ' + person2.age +'살이야');
+            }
+        }
+
+        person2.introduce();
+
+
+
+
+    </script>
+</body>
+</html>
