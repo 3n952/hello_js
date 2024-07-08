@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        JavaScript
+    </h1>
+    <script>
+        function sample(language){
+            console.log(language+'는 객체지향적이야.');
+        } 
+
+    function add_op(a,b){
+        document.write( a + b);
+    }
+
+    sample('자바스크립트')
+    add_op(10,20)
+
+    var a = -1;
+    function sample2(){
+        if (a>0){
+            return;
+        }
+        console.log('이 수는 0보다 작습니다.')
+    }
+    sample2();
+
+    function add2(a,b){
+        return a+b;
+    }
+
+    // 변수의 유효범위(scope)
+
+    //전역변수
+    var a = 10;
+    
+    console.log(a)
+
+    function sample_a(){
+        var a = 'sample1의 지역변수 a';
+        var b = 20; //지역변수
+        console.log('sample1에서 출력:' + a);
+
+        function sample_b(){
+            console.log(b);
+        }
+        sample_b();
+    }
+    sample_a()
+
+    
+    </script>
+</body>
+</html>l
